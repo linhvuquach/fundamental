@@ -70,5 +70,5 @@ So, in simple terms, data structures are the different ways you can organize you
 
 ## References
 
-- https://www.geeksforgeeks.org/data-structures-2/
+- https://www.geeksforgeeks.org/data-structures/
 - https://www.geeksforgeeks.org/top-data-structures-that-every-programmer-must-know/
