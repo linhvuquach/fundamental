@@ -10,7 +10,7 @@ public interface IArray<T>
     public T Get(int index);
     public int IndexOf(T value);
     public void Remove(T value);
-    public void RemoveAt(int index);
+    public T RemoveAt(int index);
     public void Set(int index, T value);
     public int Size();
     public string ToString();

@@ -100,14 +100,19 @@ public class DynamicArray<T> : IEnumerable<T>, IArray<T>
         RemoveAt(removeIndex);
     }
 
-    public void RemoveAt(int index)
+    public T RemoveAt(int index)
     {
         if (index < 0 || index >= size) throw new IndexOutOfRangeException("Index out of range");
+
+        T removed = arr[index];
+
         for (int i = index; i < size - 1; i++)
         {
             arr[i] = arr[i + 1];
         }
         size--;
+
+        return removed;
     }
 
     public void Set(int index, T value)
