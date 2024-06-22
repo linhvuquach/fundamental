@@ -1,5 +1,9 @@
 # Data Structure and Algorithm
 
+Data structures and Algorithms are dependent on each other. We use a well-suited data structure to apply algorithms.
+
+⚠️ It's important that you start learning Data Structure first, but do not dig deep into them without the knowledge of Algorithms.
+
 ## What is DSA?
 
 Imagine you have a bunch of data you want to organize and manage efficiently, like a list of numbers or names. Data structures are like different ways of organizing and storing that data, kind of like different types of containers for your stuff. They help you perform operations on your data, like searching, sorting, or adding new items, quickly and effectively.
@@ -70,5 +74,6 @@ So, in simple terms, data structures are the different ways you can organize you
 
 ## References
 
-- https://www.geeksforgeeks.org/data-structures-2/
+- https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial/
+- https://www.geeksforgeeks.org/data-structures/
 - https://www.geeksforgeeks.org/top-data-structures-that-every-programmer-must-know/
