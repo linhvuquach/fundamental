@@ -10,4 +10,14 @@ public class Dog : Animal
     {
         Console.WriteLine($"Hi I'm {Name}");
     }
+
+    public void Eat(string food)
+    {
+        Console.WriteLine($"{Name} is eating {food}.");
+    }
+
+    public override void Eat()
+    {
+        Console.WriteLine($"{Name} is eating by Dog's foods.");
+    }
 }

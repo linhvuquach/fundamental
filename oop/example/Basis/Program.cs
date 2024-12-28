@@ -8,10 +8,10 @@
 /// It also encapsulates the variable name and the "sayHello()" method together. 
 /// Now, let's say we have a Zoo. In the Zoo, we have various animals, such as cats and dogs.
 ///
-/// We can call the "sayHello()" method on each animal in the Zoo. 
+/// We can call the "SayHello()" method on each animal in the Zoo. 
 /// However, each animal will make a different sound when they greet. 
-/// This showcases Polymorphism, as the same method name "sayHello()" is invoked, but it behaves differently depending on the type of animal, allowing for flexible and varied behavior.
-
+/// This showcases Polymorphism, as the same method name "SayHello()" is invoked, but it behaves differently depending on the type of animal, allowing for flexible and varied behavior.
+//  The same for the Eat() method.
 using Basis;
 
 Cat Jerry = new Cat("Jerry");
@@ -21,4 +21,14 @@ Zoo zoo = new Zoo();
 zoo.Add(Jerry);
 zoo.Add(Mia);
 
-zoo.showAnimal();
+// Dynamic Polymorphism
+zoo.ShowAnimal();
+zoo.FeedAnimal();
+
+// Static Polymorphism:  method overloading
+Jerry.Eat("fish");
+Mia.Eat("bone");
+
+// Static Polymorphism: operator overloading
+Animal combinedAnimal = Jerry + Mia;
+combinedAnimal.SayHello();
